@@ -47,6 +47,7 @@
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
+          {% if cat == 'news' %}
           <tr>
             <td style="width:80%;vertical-align:middle">
               <h3>{{post.title}}</h3>
@@ -57,6 +58,7 @@
               {{ post.excerpt }}
             </td>
           </tr>
+          {% andif %}
           {% endfor %}
           {% endfor %}
         </table>
