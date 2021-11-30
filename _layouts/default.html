@@ -52,7 +52,7 @@
             <td style="width:80%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
-              {{post.author}}, {{ post.date }}
+              {{post.author}}, {{ post.date | date: "%D %M %Y" }}
               <br>
               <p></p>
               {{ post.excerpt }}
