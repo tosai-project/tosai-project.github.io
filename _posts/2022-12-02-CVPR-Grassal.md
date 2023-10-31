@@ -2,7 +2,7 @@
 layout: post
 title: "Neural Head Avatars from Monocular RGB Videos"
 categories: publications
-authors: Philip-William Grassal1    Malte Prinzler1    Titus Leistner    Carsten Rother    Matthias Nießner    Justus Thies
+authors: Philip-William Grassal,    Malte Prinzler,    Titus Leistner,    Carsten Rother,    Matthias Nießner,    Justus Thies
 venue: "CVPR 2022"
 arxiv: https://arxiv.org/abs/2112.01554
 code: https://github.com/philgras/neural-head-avatars
